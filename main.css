@@ -113,6 +113,8 @@ nav{
     height: auto;
 }
 
+
+
 nav ul{
     width: auto;
     height: 100%;
@@ -237,6 +239,13 @@ h1{
     border-top-right-radius: 5px; 
 }
 
+#researchImg{
+    width: 100%;
+    height:180px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+}
+
 .projeBaslik{
     font-size: 20px;
     display: inline-block;
@@ -249,9 +258,31 @@ h1{
     width: 100%;
 }
 
+.researchBaslik{
+    font-size: 15px;
+    display: inline-block;       
+    margin-top: -5px;
+    color: black;
+    text-align: center;
+    height: 55px;
+    line-height: 25px;
+    background-color: #f1f1f1;
+    width: 100%;
+    
+}
+
+
 .projeDetay{
     text-align: center;
     margin-top: -5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align:left;
+}
+
+.researchDetay{
+    text-align: center;
+    margin-top: -20px;
     margin-right: 10px;
     margin-left: 10px;
     text-align:left;
@@ -310,8 +341,3 @@ input[type=submit]{
     margin-top: 5px;
     margin-bottom: 10px;
 }
-
-
-
-
-
