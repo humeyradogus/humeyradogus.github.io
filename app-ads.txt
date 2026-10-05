@@ -1,0 +1,2 @@
+# app-ads.txt — Çengel Bulmaca
+google.com, pub-3825195197038408, DIRECT, f08c47fec0942fa0

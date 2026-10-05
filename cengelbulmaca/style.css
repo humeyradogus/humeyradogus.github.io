@@ -1,0 +1,13 @@
+:root{--paper:#f3ecdc;--paper-dark:#e8dec5;--ink:#1a1612;--ink-soft:#3a342a;--red:#b91d2a;--blue:#2a6db0}
+@media (prefers-color-scheme:dark){:root{--paper:#2a1f17;--paper-dark:#332619;--ink:#e8dec5;--ink-soft:#c9bba0;--red:#c04555;--blue:#7ba8d8}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 "Source Serif Pro",Georgia,serif}
+.page{max-width:720px;margin:24px auto;padding:28px 20px;border:3px double var(--red)}
+header{text-align:center;border-bottom:1.5px solid var(--ink);padding-bottom:14px;margin-bottom:22px}
+.brand{font:700 30px/1.1 "Source Sans Pro",Arial,sans-serif;letter-spacing:2px;color:var(--blue);margin:0}
+.sub{font:600 12px "Source Sans Pro",Arial,sans-serif;letter-spacing:2.4px;color:var(--ink-soft);margin-top:6px}
+h1{font:700 22px "Source Sans Pro",Arial,sans-serif;color:var(--red);letter-spacing:1px}
+h2{font:700 16px "Source Sans Pro",Arial,sans-serif;letter-spacing:1.2px;text-transform:uppercase;margin-top:28px;border-bottom:1px solid var(--paper-dark);padding-bottom:4px}
+a{color:var(--blue)}
+.lang{font:600 13px "Source Sans Pro",Arial,sans-serif;text-align:right;margin-bottom:8px}
+footer{margin-top:32px;font:12px "Source Sans Pro",Arial,sans-serif;color:var(--ink-soft);text-align:center;border-top:1px solid var(--paper-dark);padding-top:12px}
